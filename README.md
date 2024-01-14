@@ -1,1 +1,5 @@
 # Titanic---Machine-Learning-from-Disaster
+
+This project aims to employ machine learning to construct a model predicting the survival of passengers in the Titanic shipwreck, participating in a Kaggle competition. Initial steps involve cleaning the provided training and test data. In the feature engineering phase, we will transform categorical variables into binary features and discard columns deemed irrelevant for the model. Following the normalization of independent variables, we will analyze correlations using Pearson, Spearman, and Kendall methods to identify optimal variables, effectively reducing dataset dimensionality, thereby enhancing model accuracy and performance.
+
+Subsequently, we will employ the gridsearchCV method to determine the best model and parameters from eight different classifier models. Following this, we will train the chosen model with the identified optimal parameters. The next steps involve testing the model and evaluating results. Finally, we will utilize the trained model to predict survival variables for the test dataset, preparing the submission.
